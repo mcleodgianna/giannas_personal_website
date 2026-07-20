@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Gianna McLeod</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><span class="dot"></span>gianna.mcleod</a>
+      <button class="nav-toggle" aria-label="Toggle navigation"><span></span></button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="connect.html">Connect</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="wrap">
+
+      <section class="tight">
+        <h2>Projects Overview</h2>
+        <p>
+          Here's a brief overview of some of the projects I've worked on. Some have public
+          links available, while others will have their own dedicated showcase page soon.
+        </p>
+      </section>
+
+      <section class="tight">
+        <div class="project-grid">
+
+          <article class="project-card">
+            <div class="project-card-head">
+              <h3>Indoor Outdoor Detection Leaderboard</h3>
+              <span class="tag-mono">Research</span>
+            </div>
+            <div class="project-card-body">
+              <p>
+                This was the first project I worked on as an Undergraduate Researcher at
+                Professor Ali Abedi's research group at UW–Madison. We wrote a paper on this
+                project, which was accepted for <strong>IEEE DySPAN 2026</strong>. It was
+                also used in a competition run by SpectrumX.
+              </p>
+              <p>
+                The site lets users upload their machine learning environment-sensing models
+                and tests/compares them against each other, encouraging frictionless
+                reproducibility. I also collected numerous datasets of airplane ADS-B signals
+                for users to train and test their models on.
+              </p>
+              <a href="https://huggingface.co/spaces/IndoorOutdoor/Indoor-Outdoor-Detection-Leaderboard"
+                 class="project-link" target="_blank" rel="noopener noreferrer">
+                View Project <span class="arrow">→</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-head">
+              <h3>NCAA Basketball Hometown Map</h3>
+              <span class="tag-mono">Data Viz</span>
+            </div>
+            <div class="project-card-body">
+              <p>
+                An interactive map visualizing hometown data for NCAA players, built for the
+                UW–Madison Athletics Department. I wrote the app in R.
+              </p>
+
+              <!-- --- VIDEO GOES HERE --- -->
+              <video controls preload="metadata" poster="videos/ncaa-map-poster.jpg">
+                <source src="videos/ncaa-map-demo.mov" type="video/quicktime" />
+                Your browser doesn't support embedded video.
+                <a href="videos/ncaa-map-demo.mp4">Download the video</a> instead.
+              </video>
+              <p class="caption">Demo video — not yet publicly deployed.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-head">
+              <h3>GE Healthcare Mobile App</h3>
+              <span class="tag-mono">Capstone</span>
+            </div>
+            <div class="project-card-body">
+              <p>
+                My Capstone project — a team of 6 CS students partnered with GE Healthcare to
+                build a mobile app for provisioning their patient monitoring system. I can't
+                showcase the app itself here, but the final demo slides (with screenshots and
+                more project detail) are below.
+              </p>
+
+              <!-- --- SLIDES GO HERE --- -->
+              <iframe src="slides/ge-healthcare-demo.pdf" title="GE Healthcare final demo slides"></iframe>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-head">
+              <h3>Activity Generator</h3>
+              <span class="tag-mono">Web App</span>
+            </div>
+            <div class="project-card-body">
+              <p>A small tool that generates random activities.</p>
+              <a href="https://cs571-su25.github.io/p22/" class="project-link" target="_blank" rel="noopener noreferrer">
+                View Project <span class="arrow">→</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-head">
+              <h3>This Website</h3>
+              <span class="tag-mono">Personal</span>
+            </div>
+            <div class="project-card-body">
+              <p>A personal site built to showcase my work and experiments.</p>
+              <a href="#" class="project-link">View Source <span class="arrow">→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-head">
+              <h3>Game Jam Project</h3>
+              <span class="tag-mono">Coming Soon</span>
+            </div>
+            <div class="project-card-body">
+              <p>
+                A collaborative game jam entry. I contributed partially, but most credit goes
+                to the team.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <hr class="divider" />
+
+      <section class="tight prose">
+        <h2>Work Experience</h2>
+        <p>
+          I've worked across several roles, including software development in a research
+          setting, data visualization for sports research, IT Helpdesk, and most recently
+          Software Delivery. More details will be added here soon but for now you can check out my
+          <a href="https://www.linkedin.com/in/gianna-mcleod/" target="_blank" rel="noopener noreferrer" class="project-link">LinkedIn</a>.
+        </p>
+      </section>
+
+      <section class="tight prose">
+        <h2>Scratch Club</h2>
+        <p>
+          I helped run a Scratch coding club focused on introducing elementary-aged
+          beginners to programming concepts through simple, creative projects. It was a fun
+          and rewarding teaching experience.
+        </p>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap-wide">
+      <p>&copy; 2026 Gianna McLeod</p>
+      <ul class="footer-links">
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="connect.html">Connect</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
