@@ -93,12 +93,35 @@
                 more project detail) are below.
               </p>
 
-              <!-- --- SLIDES GO HERE --- -->
-              <iframe 
-                src="bee GEes - Final Demo.pdf#view=FitH&pagemode=none" 
-                width="800" 
-                height="600">
-              </iframe>
+              <img id="slide" src="slide1.png" width="600">
+
+              <br>
+              <button onclick="prev()">Prev</button>
+              <button onclick="next()">Next</button>
+              
+              <script>
+                let slides = ["photos/bee GEes - Final Demo.png","photos/bee GEes - Final Demo (1).png",
+                              "photos/bee GEes - Final Demo (2).png",
+                             "photos/bee GEes - Final Demo (3).png",
+                             "photos/bee GEes - Final Demo (4).png",
+                             "photos/bee GEes - Final Demo (5).png",
+                             "photos/bee GEes - Final Demo (6).png"];
+                let i = 0;
+                
+                function show() {
+                  document.getElementById("slide").src = slides[i];
+                }
+                
+                function next() {
+                  if (i < slides.length - 1) i++;
+                  show();
+                }
+                
+                function prev() {
+                  if (i > 0) i--;
+                  show();
+                }
+              </script>
             </div>
           </article>
 
